@@ -1,0 +1,119 @@
+{
+    "version": 1,
+    "name": "MP0_InputActions",
+    "maps": [
+        {
+            "name": "MP0",
+            "id": "74c20c7e-78fe-4197-8868-c9b11802aa35",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "9de96f78-cf1b-46e3-b0b3-f8850c74c75c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LightToggle",
+                    "type": "Button",
+                    "id": "50538841-4284-4585-9d7d-2334d8f27ada",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BreakOut",
+                    "type": "Button",
+                    "id": "fcad7820-b246-4b6c-b161-d97bc730d009",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7ee5b69f-3122-4d46-81ea-d93a752c116b",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "82237dcf-c05f-4349-a6e9-fb95b35ac056",
+                    "path": "<XRController>{LeftHand}/{Menu}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f133bb8-7d56-4fe9-8a8d-96522e31e4dc",
+                    "path": "<XRController>{RightHand}/{SecondaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5499a735-4653-4d95-a5c9-71770eea234c",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e84b4525-000e-4811-8e56-98c9ecbca5f4",
+                    "path": "<XRController>{RightHand}/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5f3f94c-acd8-4ef4-8436-28d39042d046",
+                    "path": "<Keyboard>/#(V)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BreakOut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "26241ae7-f91a-474b-bc19-8f7785a03692",
+                    "path": "<XRController>{LeftHand}/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BreakOut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
