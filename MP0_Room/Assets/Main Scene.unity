@@ -678,12 +678,26 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Controls:
 
-    - Trigger: Change light color
 
-    - Button A: Exit room
-    view
+    Keyboard:
 
-    - Menu: Quit
+    - Tab: Toggle light color
+
+    - V: Switch
+    inside / outside view
+
+    - Esc: Quit application
+
+
+    VR Controller:
+
+    -
+    Right A: Toggle light color
+
+    - Left X: Switch inside / outside view
+
+    -
+    Menu: Quit application
 
 '
   m_isRightToLeft: 0
@@ -712,8 +726,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
