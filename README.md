@@ -1,7 +1,7 @@
 MP0: The Room
 
 GitHub Repository:
-https://github.com/yourusername/your-repo-name
+https://github.com/abhishekramakri/CS-417-MP0
 
 Notes:
 - Project was developed on macOS.
