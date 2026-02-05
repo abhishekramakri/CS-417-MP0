@@ -11,4 +11,4 @@ Notes
 - The XR Interaction Simulator is included in the project for non-HMD XR testing.
 - The same Input Actions are bound to XR controllers and will function with a physical headset without code changes.
 - Break Out toggles between inside and outside viewpoints; an outside platform is used as the external vantage point.
- -Since the build was created on macOS, the standalone build is provided as a .app file rather than a Windows .exe.
+ - Since the build was created on macOS, the standalone build is provided as a .app file rather than a Windows .exe.
